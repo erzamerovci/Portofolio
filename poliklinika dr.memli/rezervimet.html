@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0 ,minimum-scale=1,maximum maximum-scale=1,user-scalable=no">
+    <title>Rezervime-Poliklinika " Dr.Memli "</title>
+    <link rel="stylesheet " href="rezervimdizajn.css ">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+
+
+</head>
+
+
+<body>
+    <section class="section-1">
+
+        <header>
+
+            <h2 class="logo">Poliklinika <br>"Dr.Memli"</h2>
+
+
+            <nav id="main-div" class="nav-bar">
+                <a class="active" href="Ballina.html">Ballina</a>
+                <a href="Rrethnesh.html">Rreth nesh</a>
+                <a href="Stafi.html">Stafi</a>
+                <a href="rezervimet.html">Rezervimet</a>
+                <a href="Keshillamjekesore.html">Këshilla mjeksore</a>
+
+            </nav>
+
+        </header>
+
+
+    </section>
+
+    <div class="contact-wrap">
+        <div class="contact-in">
+            <h1>Kontakti</h1>
+            <h2><i class="fa fa-phone" aria-hidden="true"></i> Numri i telefonit</h2>
+            <p>045-725-725</p>
+            <h2><i class="fa fa-envelope" aria-hidden="true"></i>Email</h2>
+            <p>drmemli@yahoo.com</p>
+            <h2> <i class="fa fa-map-marker" aria-hidden="true"></i>Adresa</h2>
+            <p>Ulpianë, Prishtina</p>
+            <ul>
+                <li>
+                    <a href="https://www.facebook.com/drmemli"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+                </li>
+                <li>
+                    <a href="https://www.instagram.com/drmemli/"><i class="fa fa-instagram" aria-hidden="true"></i></a>
+                </li>
+                <li>
+                    <a href="https://www.youtube.com/channel/UCoj1ospuG9aHzOLKb_0THzA"><i class="fa fa-youtube-play" aria-hidden="true"></i></a>
+                </li>
+            </ul>
+        </div>
+        <div class="contact-in">
+            <h1>Rezervo takimin tënd tani!</h1>
+            <form>
+                <input type="text" placeholder="Emri dhe mbiemri" class="contact-in-input" required>
+                <input type="text" placeholder="Email" class="contact-in-input" required>
+                <input type="text" placeholder="Numri i telefonit" class="contact-in-input" required>
+                <input type="date" placeholder="Zgjedh daten per takim" class="contact-in-input" required>
+                <textarea class="contact-in-textarea" placeholder="Lini një mesazh"></textarea>
+                <select class="select-in" name="doktorret" id="cars">
+                    <option value="Memli">Dr.Memli Morina-Gjinekolog</option>
+                    <option value="saab">Dr.Valbona Sina Naka-Gjinekologe</option>
+                    <option value="opel">Dr.Flutra Ismajli Qosja-Gjinekologe</option>
+                    <option value="audi">Dr.Rreze Serhati Morina-Endokrinologe</option>
+                    <option value="audi">Dr.Urata Efendija Beqa-Pediatre</option>
+                  </select>
+                <br><br>
+                <input type="submit" value="SUBMIT" class="contact-in-button">
+            </form>
+        </div>
+        <div class="contact-in">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d11738.236414105453!2d21.163558!3d42.649506!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x94442933b65fcb69!2sDr%20Memli!5e0!3m2!1sen!2s!4v1612290836005!5m2!1sen!2s" width="100%" height="auto"
+                frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+        </div>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js " integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" crossorigin=" anonymous "></script>
+    <script>
+        $(document).ready(function() {
+            $(window).on('scroll', function() {
+                if ($(window).scrollTop()) {
+                    $("header ").addClass('bgc');
+                } else {
+                    $("header ").removeClass('bgc');
+                }
+            })
+        });
+    </script>
+
+
+
+</body>
+
+
+</html>

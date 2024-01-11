@@ -1,0 +1,553 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Monticello</title>
+    <link rel="stylesheet" href="./style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css"
+    />
+    <link rel="stylesheet" href="./style.css" />
+    <link rel="stylesheet" href="./slick/slick.css" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"></script>
+  </head>
+  <body>
+    <div class="container-fluid">
+      <div id="header" class="row header">
+        <div class="header_nav">
+          <div class="col-2 logo">
+            <h1 class="logo_h1">Monticello</h1>
+          </div>
+          <div class="col-6 menu">
+            <div class="menu_a">
+              <i class="fa fa-circle-thin" aria-hidden="true"></i>
+              <a class="menu_a_link" href="#aboutUs">About Us</a>
+            </div>
+            <div class="menu_a">
+              <i class="fa fa-circle-thin" aria-hidden="true"></i>
+              <a class="menu_a_link" href="#projects">Projects</a>
+            </div>
+            <div class="menu_a">
+              <i class="fa fa-circle-thin" aria-hidden="true"></i>
+              <a class="menu_a_link" href="#header">Home</a>
+            </div>
+            <div class="menu_a">
+              <i class="fa fa-circle-thin" aria-hidden="true"></i>
+              <a class="menu_a_link" href="#form">Contact</a>
+            </div>
+          </div>
+          <div class="col-2 icons">
+            <i class="fa fa-facebook" aria-hidden="true"></i>
+            <i class="fa fa-twitter" aria-hidden="true"></i>
+            <i class="fa fa-globe" aria-hidden="true"></i>
+          </div>
+        </div>
+        <div class="header_text">
+          <h1 class="header_text_h1">SIMPLE & MODERN</h1>
+          <p class="header_text_p">WE MAKE THE WORLD BEAUTIFUL EVERYDAY</p>
+        </div>
+
+        <div class="header_swipeDown">
+          <a class="header_swipeDown_a" href="#projects">
+            <i class="fa fa-chevron-down" aria-hidden="true"></i>
+          </a>
+        </div>
+      </div>
+
+      <div id="aboutUs" class="row whatWeDo">
+        <div class="whatWeDo_line"></div>
+        <h1 class="whatWeDo_h1">WHAT WE DO</h1>
+      </div>
+      <div class="row section1">
+        <div class="col-5 section1_image">
+          <div class="section1_image_background"></div>
+          <img
+            class="section1_image_img"
+            src="./images/section1.png"
+            alt="Image"
+          />
+        </div>
+        <div class="col-5 section1_desc">
+          <h4 class="section1_desc_h4">ONE WORLD</h4>
+          <h1 class="section1_desc_h1">TRADE CENTER</h1>
+          <p class="section1_desc_p">
+            Increasing prosperity in our lives can be accomplished by having the
+            right frame of mind. The truth is, our thoughts are very powerful.
+          </p>
+
+          <button class="section1_desc_button">More Details</button>
+          <div class="section1_desc_address">
+            <i
+              class="fa fa-map-marker section1_desc_address_icon"
+              aria-hidden="true"
+            ></i>
+            <p>New York City, United States - 1776 feet</p>
+          </div>
+        </div>
+      </div>
+      <div class="row section2">
+        <div class="col-5 section2_desc">
+          <h4 class="section2_desc_h4">INTERNATIONAL</h4>
+          <h1 class="section2_desc_h1">COMMERCE CENTRE</h1>
+          <p class="section2_desc_p">
+            Successful businesses have many things in common, today we’ll look
+            at the big ‘R’ of recognition and how a digital advertising network
+            may help.
+          </p>
+
+          <button class="section2_desc_button">More Details</button>
+          <div class="section2_desc_address">
+            <i
+              class="fa fa-map-marker section1_desc_address_icon"
+              aria-hidden="true"
+            ></i>
+            <p>Hong Kong - 1588 feet</p>
+          </div>
+        </div>
+        <div class="col-5 section2_image">
+          <div class="section2_image_background"></div>
+          <img
+            class="section2_image_img"
+            src="./images/section2.png"
+            alt="Image"
+          />
+        </div>
+      </div>
+      <div class="row card_slider">
+        <img class="card_slider_img" src="./images/card_slider.png" alt="" />
+        <div id="projects" class="container">
+          <div class="row">
+            <div class="col-12">
+              <div class="line"></div>
+              <h3 class="mb-3 card_slider_h3">LATEST NEWS</h3>
+            </div>
+            <div class="col-6 text-left">
+              <a
+                class="btn btn-primary mb-3 mr-1"
+                href="#carouselExampleIndicators2"
+                role="button"
+                data-slide="prev"
+              >
+                <i class="fa fa-arrow-left"></i>
+              </a>
+              <a
+                class="btn btn-primary mb-3"
+                href="#carouselExampleIndicators2"
+                role="button"
+                data-slide="next"
+              >
+                <i class="fa fa-arrow-right"></i>
+              </a>
+            </div>
+            <div class="col-12">
+              <div
+                id="carouselExampleIndicators2"
+                class="carousel slide"
+                data-ride="carousel"
+              >
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    <div class="row">
+                      <div class="col-md-4 mb-3">
+                        <div class="card">
+                          <img
+                            class="img-fluid card_image"
+                            alt="100%x280"
+                            src="./images/first_slide.png"
+                          />
+                          <div class="card-body">
+                            <h4 class="card-title">
+                              SEE THE UNMATCHED BEAUTY OF THE GREAT.
+                            </h4>
+                            <p class="card-text">
+                              Free directories: directories are perfect for
+                              customers that are searching for...
+                            </p>
+                          </div>
+                          <div class="card-info">
+                            <img
+                              class="card-info_photo"
+                              src="./images/1.png"
+                              alt=""
+                            />
+                            <div class="card-info_datas">
+                              <h5 class="card-info_datas_name">ALJA BRUN</h5>
+                              <p class="card-info_datas_date">20 Jan 2020</p>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="col-md-4 mb-3">
+                        <div class="card">
+                          <img
+                            class="img-fluid card_image"
+                            alt="100%x280"
+                            src="images/first_slide.png"
+                          />
+                          <div class="card-body">
+                            <h4 class="card-title">Special title treatment</h4>
+                            <p class="card-text">
+                              With supporting text below as a natural lead-in to
+                              additional content.
+                            </p>
+                          </div>
+                          <div class="card-info">
+                            <img
+                              class="card-info_photo"
+                              src="./images/1.png"
+                              alt=""
+                            />
+                            <div class="card-info_datas">
+                              <h5 class="card-info_datas_name">ALJA BRUN</h5>
+                              <p class="card-info_datas_date">20 Jan 2020</p>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="col-md-4 mb-3">
+                        <div class="card">
+                          <img
+                            class="img-fluid card_image"
+                            alt="100%x280"
+                            src="images/joel-filipe-151690 1.png"
+                          />
+                          <div class="card-body">
+                            <h4 class="card-title">Special title treatment</h4>
+                            <p class="card-text">
+                              With supporting text below as a natural lead-in to
+                              additional content.
+                            </p>
+                          </div>
+                          <div class="card-info">
+                            <img
+                              class="card-info_photo"
+                              src="./images/1.png"
+                              alt=""
+                            />
+                            <div class="card-info_datas">
+                              <h5 class="card-info_datas_name">ALJA BRUN</h5>
+                              <p class="card-info_datas_date">20 Jan 2020</p>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="carousel-item">
+                    <div class="row">
+                      <div class="col-md-4 mb-3">
+                        <div class="card">
+                          <img
+                            class="img-fluid card_image"
+                            alt="100%x280"
+                            src="images/echo-grid-156713 1.png"
+                          />
+                          <div class="card-body">
+                            <h4 class="card-title">Special title treatment</h4>
+                            <p class="card-text">
+                              With supporting text below as a natural lead-in to
+                              additional content.
+                            </p>
+                          </div>
+                          <div class="card-info">
+                            <img
+                              class="card-info_photo"
+                              src="./images/1.png"
+                              alt=""
+                            />
+                            <div class="card-info_datas">
+                              <h5 class="card-info_datas_name">ALJA BRUN</h5>
+                              <p class="card-info_datas_date">20 Jan 2020</p>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="col-md-4 mb-3">
+                        <div class="card">
+                          <img
+                            class="img-fluid card_image"
+                            alt="100%x280"
+                            src="https://images.unsplash.com/photo-1532715088550-62f09305f765?ixlib=rb-0.3.5&amp;q=80&amp;fm=jpg&amp;crop=entropy&amp;cs=tinysrgb&amp;w=1080&amp;fit=max&amp;ixid=eyJhcHBfaWQiOjMyMDc0fQ&amp;s=ebadb044b374504ef8e81bdec4d0e840"
+                          />
+                          <div class="card-body">
+                            <h4 class="card-title">Special title treatment</h4>
+                            <p class="card-text">
+                              With supporting text below as a natural lead-in to
+                              additional content.
+                            </p>
+                          </div>
+                          <div class="card-info">
+                            <img
+                              class="card-info_photo"
+                              src="./images/1.png"
+                              alt=""
+                            />
+                            <div class="card-info_datas">
+                              <h5 class="card-info_datas_name">ALJA BRUN</h5>
+                              <p class="card-info_datas_date">20 Jan 2020</p>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="col-md-4 mb-3">
+                        <div class="card">
+                          <img
+                            class="img-fluid card_image"
+                            alt="100%x280"
+                            src="./images/joel-filipe-151690 1.png"
+                          />
+                          <div class="card-body">
+                            <h4 class="card-title">Special title treatment</h4>
+                            <p class="card-text">
+                              With supporting text below as a natural lead-in to
+                              additional content.
+                            </p>
+                          </div>
+                          <div class="card-info">
+                            <img
+                              class="card-info_photo"
+                              src="./images/1.png"
+                              alt=""
+                            />
+                            <div class="card-info_datas">
+                              <h5 class="card-info_datas_name">ALJA BRUN</h5>
+                              <p class="card-info_datas_date">20 Jan 2020</p>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="carousel-item">
+                    <div class="row">
+                      <div class="col-md-4 mb-3">
+                        <div class="card">
+                          <img
+                            class="img-fluid card_image"
+                            alt="100%x280"
+                            src="./images/echo-grid-156713 1.png"
+                          />
+                          <div class="card-body">
+                            <h4 class="card-title">Special title treatment</h4>
+                            <p class="card-text">
+                              With supporting text below as a natural lead-in to
+                              additional content.
+                            </p>
+                          </div>
+                          <div class="card-info">
+                            <img
+                              class="card-info_photo"
+                              src="./images/1.png"
+                              alt=""
+                            />
+                            <div class="card-info_datas">
+                              <h5 class="card-info_datas_name">ALJA BRUN</h5>
+                              <p class="card-info_datas_date">20 Jan 2020</p>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="col-md-4 mb-3">
+                        <div class="card">
+                          <img
+                            class="img-fluid card_image"
+                            alt="100%x280"
+                            src="./images/first_slide.png"
+                          />
+                          <div class="card-body">
+                            <h4 class="card-title">Special title treatment</h4>
+                            <p class="card-text">
+                              With supporting text below as a natural lead-in to
+                              additional content.
+                            </p>
+                          </div>
+                          <div class="card-info">
+                            <img
+                              class="card-info_photo"
+                              src="./images/1.png"
+                              alt=""
+                            />
+                            <div class="card-info_datas">
+                              <h5 class="card-info_datas_name">ALJA BRUN</h5>
+                              <p class="card-info_datas_date">20 Jan 2020</p>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="col-md-4 mb-3">
+                        <div class="card">
+                          <img
+                            class="img-fluid card_image"
+                            alt="100%x280"
+                            src="images/joel-filipe-151690 1.png"
+                          />
+                          <div class="card-body">
+                            <h4 class="card-title">Special title treatment</h4>
+                            <p class="card-text">
+                              With supporting text below as a natural lead-in to
+                              additional content.
+                            </p>
+                          </div>
+                          <div class="card-info">
+                            <img
+                              class="card-info_photo"
+                              src="./images/1.png"
+                              alt=""
+                            />
+                            <div class="card-info_datas">
+                              <h5 class="card-info_datas_name">ALJA BRUN</h5>
+                              <p class="card-info_datas_date">20 Jan 2020</p>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="container">
+        <div class="row">
+          <div class="col-12 gallery_title">
+            <div class="gallery_line"></div>
+            <h3 class="mb-3 gallery_h3">GALLERY</h3>
+          </div>
+        </div>
+        <div class="gallery">
+          <div class="row">
+            <div class="col-md-6">
+              <img
+                class="gallery_photo_left"
+                src="./images/gallery1.png"
+                alt="Single Photo"
+              />
+            </div>
+            <div class="col-md-6">
+              <div class="row">
+                <div class="col-md-6">
+                  <img
+                    class="gallery_photo_right"
+                    src="./images/gallery2.png"
+                    alt="Photo 1"
+                  />
+                </div>
+                <div class="col-md-6">
+                  <img
+                    class="gallery_photo_right"
+                    src="./images/gallery3.png"
+                    alt="Photo 2"
+                  />
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-md-6">
+                  <img
+                    class="gallery_photo_right"
+                    src="./images/gallery3.png"
+                    alt="Photo 3"
+                  />
+                </div>
+                <div class="col-md-6">
+                  <img
+                    class="gallery_photo_right"
+                    src="./images/gallery2.png"
+                    alt="Photo 4"
+                  />
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="gallery_button">
+          <button>See more</button>
+        </div>
+      </div>
+
+      <div id="maps_footer">
+        <div class="row maps">
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d23410.796838532413!2d20.9686279!3d42.8232284!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2s!4v1704811316127!5m2!1sen!2s"
+            width="100%"
+            height="450"
+            style="border: 0"
+            allowfullscreen=""
+            loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"
+          ></iframe>
+        </div>
+
+        <div class="row footer">
+          <img class="footer_logo" src="./images/Logo.png" alt="" />
+          <div class="footer_icons">
+            <i class="fa fa-facebook" aria-hidden="true"></i>
+            <i class="fa fa-twitter" aria-hidden="true"></i>
+            <i class="fa fa-globe" aria-hidden="true"></i>
+          </div>
+        </div>
+        <div id="form" class="form">
+          <div class="form_title">
+            <div class="whatWeDo_line"></div>
+            <h1>Get in Touch</h1>
+          </div>
+          <div class="form_elements">
+            <div class="left_form">
+              <div class="left_form_icon_data">
+                <i class="fa fa-map-marker" aria-hidden="true"></i>
+                <p>91 Nolan Extensions Suite 670 </p>
+              </div>
+              <div class="left_form_icon_data">
+                <i class="fa fa-phone" aria-hidden="true"></i>
+                <p>+001 356-868-2454</p>
+              </div>
+
+              <div class="left_form_icon_data">
+                <i class="fa fa-envelope" aria-hidden="true"></i>
+                <p>montichello@service.com</p>
+              </div>
+              <div class="left_form_icon_data">
+                <i class="fa fa-clock-o" aria-hidden="true"></i>
+                <p>From 07:05AM to 19:30PM</p>
+              </div>
+            </div>
+            <div class="right_form">
+              <form action="" id="myForm">
+                <input
+                  class="right_form_text"
+                  type="text"
+                  name="fullName"
+                  placeholder="Name and Surname"
+                />
+                <input
+                  class="right_form_email"
+                  type="email"
+                  name="email"
+                  placeholder="Email"
+                />
+                <div class="right_form_button">
+                  <input
+                    class="right_form_submit"
+                    type="submit"
+                    value="Submit"
+                  />
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="./slick/slick.js"></script>
+    <script src="./script.js"></script>
+  </body>
+</html>

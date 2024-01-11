@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Stafi</title>
+    <link rel="stylesheet" href="stafidesign.css">
+
+
+
+    <!-- CSS only -->
+</head>
+
+<body>
+
+    <div class="container">
+        <section class="section-1">
+
+            <header>
+
+                <h2 class="logo">Poliklinika <br>"Dr.Memli"</h2>
+
+
+                <nav id="main-div" class="nav-bar">
+                    <a class="active" href="Ballina.html">Ballina</a>
+                    <a href="Rrethnesh.html">Rreth nesh</a>
+                    <a href="Stafi.html">Stafi</a>
+                    <a href="rezervimet.html">Rezervimet</a>
+                    <a href="Keshillamjekesore.html">Këshilla mjeksore</a>
+
+
+                </nav>
+
+            </header>
+
+
+        </section>
+        <section>
+        </section>
+        <div class="image-container">
+
+            <div onclick="fetch_Info(0)" class="image">
+                <img src="imazhet/memli-morina.jpg" alt="">
+            </div>
+            <div onclick="fetch_Info(1)" class="image">
+                <img src="imazhet/rreze-morina.jpg" alt="">
+            </div>
+            <div onclick="fetch_Info(2)" class="image">
+                <img src="imazhet/urata-beqa.jpg" alt="">
+            </div>
+            <div onclick="fetch_Info(3)" class="image">
+                <img src="imazhet/flutra-ismajli.jpg" alt="">
+            </div>
+            <div onclick="fetch_Info(4)" class="image">
+                <img src="imazhet/valbona-sina.jpg" alt="">
+            </div>
+            <div onclick="fetch_Info(5)" class="image">
+                <img src="imazhet/naxhije-hamiti.jpg" alt="">
+            </div>
+            <div onclick="fetch_Info(6)" class="image">
+                <img src="imazhet/valmire-gashi.jpg" alt="">
+            </div>
+            <div onclick="fetch_Info(7)" class="image">
+                <img src="imazhet/diellza-gashi.jpg" alt="">
+            </div>
+
+
+        </div>
+        <div class="info-container">
+
+            <div class="info ">
+                <h1 class="name" id="name">Memli Morina</h1>
+                <h3 class="status" id="status">Gjinekolog dhe obstetër</h3>
+            </div>
+        </div>
+
+    </div>
+
+
+
+
+
+
+
+
+    <script>
+        function fetch_Info(i) {
+            let name = ["Memli Morina ", "Rreze Serhati Morina ", "Urata Efendija Beqa ", "Valbona Sina Naka ", "Flutra Ismajli ", "Naxhije Hamiti ", "Valmire Gashi Ujkani ", "Diellza Gashi "];
+            let status = ["Gjinekolog dhe obstetër ", "Endokrinologe dhe dermatologe ", "Pediatre ", "Gjinekologe ", "Gjinekologe ", "Mami ", "Infermiere ", "Infermiere "];
+            document.getElementById("name").innerHTML = name[i];
+            document.getElementById("status").innerHTML = status[i];
+        }
+    </script>
+
+</body>
+
+</html>
