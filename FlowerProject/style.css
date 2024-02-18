@@ -73,7 +73,7 @@ body {
 
 .main {
   text-align: center;
-  margin: 100px;
+  margin: 0 auto; /* Center horizontally with no vertical margin */
 }
 .main-title {
   color: #272727;
@@ -300,7 +300,7 @@ body {
   flex-direction: column;
   border-radius: 8px;
   background: url("./images/Rectangle 9.png"),
-      lightgray 0px -203.444px / 100% 213.755% no-repeat;
+    lightgray 0px -203.444px / 100% 213.755% no-repeat;
   background-size: cover;
   background-repeat: no-repeat;
   height: 300px;
@@ -327,7 +327,6 @@ body {
   line-height: 30px; /* 166.667% */
   max-width: 100%; /* Ensure responsiveness */
 }
-
 
 .input-box {
   display: inline-flex;
@@ -430,7 +429,7 @@ body {
     padding: 100px;
   }
   .header-text {
-    width: 100%;
+    width: 500px;
   }
 
   .header-text-title {
@@ -456,22 +455,24 @@ body {
   }
   .main {
     text-align: center;
-    margin: 100px;
+    margin: 0 auto; /* Center horizontally with no vertical margin */
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    padding: 5px;
   }
   .main-title {
-    font-size: 16px;
+    font-size: 14px;
     text-align: center;
     text-wrap: nowrap;
+    margin-top: 30px;
   }
 
   .main-paragraph {
     width: 100%;
     font-size: 15px;
-    padding-bottom: 10px;
+    padding-bottom: 30px;
   }
 
   .main-cards {
@@ -483,17 +484,31 @@ body {
 
   .main-card1 {
     margin-bottom: 100px;
-    width: 350px;
+    height: 400px;
+    width: 300px;
   }
 
+  .main-card1 img {
+    width: 250px;
+    height: 300px;
+  }
   .main-card2 {
     margin-bottom: 100px;
-    width: 350px;
+    width: 300px;
+    height: 400px;
   }
-
+  .main-card2 img {
+    width: 250px;
+    height: 300px;
+  }
   .main-card3 {
     margin-bottom: 100px;
-    width: 350px;
+    width: 300px;
+    height: 400px;
+  }
+  .main-card3 img {
+    width: 250px;
+    height: 300px;
   }
   .main-card-paragraph {
     position: absolute;
@@ -514,7 +529,14 @@ body {
     flex-direction: column;
     height: auto;
     margin: auto;
+    margin-bottom: 30px;
   }
+
+  .main-information-card {
+    width: 250px;
+    padding: 20px;
+  }
+
   .main-information-card-paragraph {
     font-size: 18px;
   }
@@ -528,13 +550,14 @@ body {
 
   .sale-text {
     margin-right: 0;
-    margin-bottom: 100px;
+    margin-bottom: 20px;
+    padding: 5px;
   }
   .sale-text-title {
-    font-size: 28px;
+    font-size: 22px;
   }
   .sale-text-off {
-    font-size: 28px;
+    font-size: 22px;
   }
 
   .sale-text-paragraph {
@@ -552,8 +575,247 @@ body {
   }
 
   .sale-image-img {
-    width: 250px;
-    height: 300px;
+    width: 200px;
+    height: 200px;
+    flex-shrink: 0;
+  }
+  .instagram-title {
+    font-size: 25px;
+  }
+  .instagram-paragraph {
+    width: 100%;
+  }
+
+  .instagram-cards {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+  .instagram-cards-photo {
+    width: 100%;
+    padding-bottom: 20px;
+  }
+  .section-box {
+    width: 100%;
+    margin: 0;
+    height: auto;
+  }
+  .section-box-title {
+    font-size: 20px;
+  }
+
+  .section-box-paragraph {
+    font-size: 14px;
+  }
+
+  .input-box {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .input {
+    width: 300px;
+    height: 40px;
+    margin-bottom: 10px;
+  }
+  .input::placeholder {
+    font-size: 14px;
+    padding: 5px;
+  }
+  .input-button {
+    width: 150px;
+    height: 40px;
+    flex-shrink: 0;
+    font-size: 13px;
+    margin-bottom: 10px;
+  }
+
+  .footer {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+  }
+
+  .footer-title {
+    font-size: 30px;
+  }
+  .footer-title-span {
+    font-size: 30px;
+  }
+
+  .footer-description {
+    width: 100%;
+    font-size: 15px;
+  }
+
+  .footer-copyrights {
+    font-size: 13px;
+  }
+}
+
+@media only screen and (min-width: 601px) and (max-width: 768px) {
+  body,
+  html {
+    overflow-x: hidden;
+  }
+
+  .container {
+    width: 100%;
+    height: 100vh;
+  }
+
+  .header-text {
+    width: 700px;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .header-text-title {
+    width: 300px;
+    font-size: 30px;
+    text-align: center;
+  }
+  .header-text-paragraph {
+    width: 300px;
+    font-size: 12px;
+    text-align: center;
+  }
+  .header-text-button {
+    width: 120px;
+    height: 40px;
+    font-size: 10px;
+    margin: auto;
+    text-wrap: nowrap;
+  }
+
+  .header-image-img {
+    display: none;
+  }
+  .main {
+    text-align: center;
+    margin: 0 auto; /* Center horizontally with no vertical margin */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .main-title {
+    font-size: 18px;
+    text-align: center;
+    text-wrap: nowrap;
+    margin-top: 50px;
+  }
+
+  .main-paragraph {
+    width: 80%;
+    font-size: 12px;
+    padding-bottom: 60px;
+  }
+
+  .main-cards {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .main-card1 {
+    margin-bottom: 100px;
+    width: 350px;
+  }
+
+  .main-card1 img {
+    width: 300px;
+  }
+
+  .main-card2 {
+    margin-bottom: 100px;
+    width: 350px;
+  }
+  .main-card2 img {
+    width: 300px;
+  }
+
+  .main-card3 {
+    margin-bottom: 100px;
+    width: 350px;
+  }
+  .main-card3 img {
+    width: 300px;
+  }
+  .main-card-paragraph {
+    position: absolute;
+    bottom: -60px;
+    color: #272727;
+    text-align: center;
+    font-family: Lato;
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 35px; /* 145.833% */
+    text-decoration-line: underline;
+  }
+
+  .main-information {
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: column;
+    height: auto;
+    margin: auto;
+    margin-bottom: 30px;
+  }
+  .main-information-card {
+    width: 280px;
+    padding: 20px;
+  }
+  .main-information-card-paragraph {
+    font-size: 14px;
+  }
+  .sale {
+    width: 100%;
+    height: auto;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  .sale-text {
+    margin-right: 0;
+    margin-bottom: 20px;
+  }
+  .sale-text-title {
+    font-size: 24px;
+  }
+  .sale-text-off {
+    font-size: 24px;
+  }
+
+  .sale-text-paragraph {
+    width: 80%;
+    font-size: 14px;
+  }
+
+  .sale-text-button {
+    width: 120px;
+    height: 40px;
+    font-size: 12px;
+    margin: auto;
+    text-wrap: nowrap;
+    padding: 5px;
+  }
+
+  .sale-image-img {
+    width: 200px;
+    height: 200px;
     flex-shrink: 0;
   }
   .instagram-title {
